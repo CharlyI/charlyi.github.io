@@ -1,0 +1,42 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+ 
+ .board {
+	background: #fc0;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius: 5px;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	align-content: center; 
+	justify-content: center; 
+	overflow: auto;  
+}
+
+#msg, #progress {
+	display: flex;
+	align-items: center;
+	align-content: center; 
+	justify-content: center; 
+	font-family: Georgia, serif;
+}
+
+#progress {
+	color: #bbb
+}
+
+#msg {
+	
+}

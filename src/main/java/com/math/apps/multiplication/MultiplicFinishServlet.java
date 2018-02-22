@@ -56,7 +56,7 @@ public class MultiplicFinishServlet extends HttpServlet {
 			String msg = "";
 			
 			try {
-				sender.sendMail("spirkost@mail.ru", subject, letter);
+				sender.sendMail("vspiri@mail.ru", subject, letter);
 				msg = "Отчет отправлен";
 			} catch(Exception e) {
 				e.printStackTrace();

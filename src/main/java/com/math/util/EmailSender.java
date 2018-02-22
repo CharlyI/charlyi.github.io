@@ -31,7 +31,7 @@ public class EmailSender {
         try {
 
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("vspiri@mail.ru"));
+            message.setFrom(new InternetAddress("simplemathautosender@gmail.com"));
             message.setRecipients(Message.RecipientType.TO,
                 InternetAddress.parse(email));
             message.setSubject(subject);
